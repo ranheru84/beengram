@@ -142,8 +142,10 @@ EMAIL_PORT = os.getenv('EMAIL_PORT')
 LOGIN_URL = "login"
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "index"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 try:
     from .local_settings import *
 except ImportError:
     pass
+

@@ -264,6 +264,11 @@ body {
     margin: 0 16px;
 }
 
+.post__comment {
+    font-size: 32px;
+    margin: 0 16px;
+}
+
 .post__user {
     margin: 0 16px 0 auto;
 }
@@ -289,6 +294,11 @@ body {
 .post__like a {
     color: inherit;
     text-decoration: none;
+}
+
+.post__comment a {
+    color: inherit;
+    text-decoration: none;  
 }
 
 .post__user a {
